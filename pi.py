@@ -386,27 +386,27 @@ data = [{
     'mpi': [73, 162, 112, 57, 162, 106, 258, 272],
 }, {
     'time': '2013.1.25 20:03:27',
-    'name': ['EMINENCE', 'FTD', 'HM', 'INSPART', 'KHAOS', 'KIRITO', 'LCG', 'OOXXINC'],
+    'name': ['EMINENCE', 'FTD', 'HM', 'INSPRATI', 'KHAOS', 'KIRITO', 'LCG', 'OOXXINC'],
     'mpi': [265, 300, 300, 186, 315, 310, 282, 332],
 }, {
     'time': '2013.1.25 21:10:35',
-    'name': ['EMINENCE', 'FTD', 'INSPART', 'KIRITO', 'LCG', 'LILI', 'OOXXINC', 'RAB'],
+    'name': ['EMINENCE', 'FTD', 'INSPRATI', 'KIRITO', 'LCG', 'LILI', 'OOXXINC', 'RAB'],
     'mpi': [219, 299, 117, 177, 186, 248, 281, 168],
 }, {
     'time': '2013.1.26 21:17:25',
-    'name': ['AYA', 'EMINENCE', 'FTD', 'HHM', 'INSPART', 'KAT', 'OOXXINC', 'TIGER'],
+    'name': ['AYA', 'EMINENCE', 'FTD', 'HHM', 'INSPRATI', 'KAT', 'OOXXINC', 'TIGER'],
     'mpi': [277, 268, 187, 249, 148, 359, 239, 223],
 }, {
     'time': '2013.1.27 20:12:54',
-    'name': ['CAT', 'FLY', 'FTD', 'HM', 'INSPART', 'LCT', 'MIANMIAN', 'OOXXINC'],
+    'name': ['CAT', 'FLY', 'FTD', 'HM', 'INSPRATI', 'LCT', 'MIANMIAN', 'OOXXINC'],
     'mpi': [243, 293, 249, 288, 170, 271, 135, 302],
 }, {
     'time': '2013.1.27 21:44:49',
-    'name': ['CAT', 'INSPART', 'LILI', 'MATTINC', 'OOXXINC', 'OWO', 'RABBIT', 'WXY'],
+    'name': ['CAT', 'INSPRATI', 'LILI', 'MATTINC', 'OOXXINC', 'OWO', 'RABBIT', 'WXY'],
     'mpi': [163, 142, 211, 161, 208, 193, 191, 183],
 }, {
     'time': '2013.1.31 22:25:37',
-    'name': ['KIRITO', 'MATTINC', 'LILI', 'FTD', 'ASH', 'INSPART', 'OOXXINC', 'OWO'],
+    'name': ['KIRITO', 'MATTINC', 'LILI', 'FTD', 'ASH', 'INSPRATI', 'OOXXINC', 'OWO'],
     'mpi': [245, 239, 345, 272, 281, 179, 244, 231],
 }, {
     'time': '2013.2.2 19:10:50',
@@ -414,7 +414,7 @@ data = [{
     'mpi': [94, 80, 210, 130, 282, 114, -62, 122],
 }, {
     'time': '2013.2.2 19:58:20',
-    'name': ['OOXXINC', 'KIRITO', 'LILI', 'INSPART', 'EMINENCE', 'TIGER', 'MYSLY', 'MATTINC'],
+    'name': ['OOXXINC', 'KIRITO', 'LILI', 'INSPRATI', 'EMINENCE', 'TIGER', 'MYSLY', 'MATTINC'],
     'mpi': [497, 489, 427, 311, 411, 409, 346, 318],
 }, {
     'time': '2013.2.3 17:21:02',
@@ -426,23 +426,23 @@ data = [{
     'mpi': [269, 273, 246, 260, 257, 287, 251, 376],
 }, {
     'time': '2013.2.3 20:29:20',
-    'name': ['CYNTHIA', 'INSPART', 'WXY', 'SOMNUSM', 'FTD', 'TIGER', 'JIANGYOU', 'CUPPY'],
+    'name': ['CYNTHIA', 'INSPRATI', 'WXY', 'SOMNUSM', 'FTD', 'TIGER', 'JIANGYOU', 'CUPPY'],
     'mpi': [155, 138, 131, 214, 228, 263, 111, 107],
 }, {
     'time': '2013.2.3 22:10:26',
-    'name': ['INSPART', 'MATTINC', 'UNRULY', 'SOMNUSM', '5238', 'MOMO', 'TIGER', 'KIRITO'],
+    'name': ['INSPRATI', 'MATTINC', 'UNRULY', 'SOMNUSM', '5238', 'MOMO', 'TIGER', 'KIRITO'],
     'mpi': [225, 172, 197, 318, 188, 128, 180, 262],
 }, {
     'time': '2013.2.4 20:05:55',
-    'name': ['LILI', 'PASTUREK', 'GODLIKE', 'INSPART', 'LOISE', 'YL', 'KIRITO', 'DAY'],
+    'name': ['LILI', 'PASTUREK', 'GODLIKE', 'INSPRATI', 'LOISE', 'YL', 'KIRITO', 'DAY'],
     'mpi': [370, 267, 317, 263, 265, 241, 291, 198],
 }, {
     'time': '2013.2.4 20:06:13',
-    'name': ['CADAE', 'FTD', 'FTD2009', 'INSPART', 'KIRITO', 'LILI', 'MATTINC', 'QQQ'],
+    'name': ['CADAE', 'FTD', 'FTD2009', 'INSPRATI', 'KIRITO', 'LILI', 'MATTINC', 'QQQ'],
     'mpi': [93, 242, 277, 183, 352, 381, 233, 158],
 }, {
     'time': '2013.2.4 21:12:58',
-    'name': ['MATTINC', 'INSPART', 'WESIQ', 'MEREDITH', 'CUPPY', 'TSJ', 'WH', 'KIRITO'],
+    'name': ['MATTINC', 'INSPRATI', 'WESIQ', 'MEREDITH', 'CUPPY', 'TSJ', 'WH', 'KIRITO'],
     'mpi': [187, 174, 373, 248, 226, 181, 88, 308],
 }, {
     'time': '2013.2.5 20:29:54',
@@ -450,27 +450,27 @@ data = [{
     'mpi': [341, 295, 185, 317, 142, 216, 256, 291],
 }, {
     'time': '2013.2.5 23:25:09',
-    'name': ['KIRITO', 'KHAOS', 'GODLIKE', 'WYC', 'LILI', 'TSJ', 'INSPART', 'FTD'],
+    'name': ['KIRITO', 'KHAOS', 'GODLIKE', 'WYC', 'LILI', 'TSJ', 'INSPRATI', 'FTD'],
     'mpi': [277, 352, 376, 178, 334, 251, 208, 293],
 }, {
     'time': '2013.2.5 23:25:30',
-    'name': ['WYC', 'KHAOS', 'EMINENCE', 'INSPART', 'KIRITO', 'FTD', 'LILI', 'GODLIKE'],
+    'name': ['WYC', 'KHAOS', 'EMINENCE', 'INSPRATI', 'KIRITO', 'FTD', 'LILI', 'GODLIKE'],
     'mpi': [315, 508, 548, 406, 576, 308, 501, 639],
 }, {
     'time': '2013.2.6 17:03:43',
-    'name': ['GODLIKE', 'KIRITO', 'TONY', 'INSPART', 'OOXXINC', 'FTD', '111', 'UNRULY'],
+    'name': ['GODLIKE', 'KIRITO', 'TONY', 'INSPRATI', 'OOXXINC', 'FTD', '111', 'UNRULY'],
     'mpi': [432, 392, 263, 268, 382, 251, 399, 333],
 }, {
     'time': '2013.2.8 16:52:42',
-    'name': ['CANDY', 'INSPART', 'FTD', 'CUPPY', 'WYC', 'MATTINC', 'GODLIKE', 'CNMD'],
+    'name': ['CANDY', 'INSPRATI', 'FTD', 'CUPPY', 'WYC', 'MATTINC', 'GODLIKE', 'CNMD'],
     'mpi': [175, 227, 380, 301, 165, 326, 373, 307],
 }, {
     'time': '2013.2.8 16:53:02',
-    'name': ['INSPART', 'GODIKE', 'KIRITO', 'MARS', 'TSJ', 'FLY'],
+    'name': ['INSPRATI', 'GODIKE', 'KIRITO', 'MARS', 'TSJ', 'FLY'],
     'mpi': [312, 375, 364, 413, 313, 393],
 }, {
     'time': '2013.2.8 16:53:19',
-    'name': ['INSPART', 'UNRULY', 'MATTINC', 'KIRITO', 'GODLIKE', '8', 'EXIBAR', 'FTD'],
+    'name': ['INSPRATI', 'UNRULY', 'MATTINC', 'KIRITO', 'GODLIKE', '8', 'EXIBAR', 'FTD'],
     'mpi': [217, 102, 142, 405, 379, 377, 96, 94],
 }, {
     'time': '2013.2.8 16:53:42',
@@ -666,7 +666,7 @@ data = [{
     'mpi': [244, 225, 266, 282],
 }, {
     'time': '2013.6.28 21:45:32',
-    'name': ['INSPIRAT', 'OOXXINC', 'GODLIKE', 'HH', 'UNRULY', 'HHHHH'],
+    'name': ['INSPRATI', 'OOXXINC', 'GODLIKE', 'HH', 'UNRULY', 'HHHHH'],
     'mpi': [206, 333, 291, 67, 97, 153],
 }]
 
