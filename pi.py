@@ -671,7 +671,7 @@ data = [{
 }]
 
 
-# generate weighted player index
+# generate weighted player indexes
 def wpi(game):
     mpi = sorted(game['mpi'])
     weight = [1.] * len(mpi)
@@ -704,9 +704,47 @@ def wpi(game):
         weight = [math.exp(k * i + b) for i in mpi]
 
     # calculate unsorted results
-    game['wpi'] = [math.exp(k * i + b) for i in game['mpi']]
-    print game['wpi']
+    game['wpi'] = [k * i + b for i in game['mpi']]
+
+
+# generate Bradley-Terry Model ranks
+def bt(data):
+    players = set()
+    for game in data:
+        players |= set(game['name'])
+
+    # do log-likelihood solving
+    rank = {i: 1. for i in players}
+    for iteration in range(50):
+        # new_rank_a = {i: 0. for i in players}
+        # new_rank_b = {i: 0. for i in players}
+        new_rank_a = {i: 0. for i in players}
+        new_rank_b = {i: 7. / (1. + rank[i]) for i in players}  # assume one lost 8p game
+
+        # load data from games
+        for game in data:
+            name = game['name']
+            wpi = game['wpi']
+            for i in range(len(wpi)):
+                for j in range(len(wpi)):
+                    new_rank_a[name[i]] += 0.5 + 0.5 * (wpi[i] - wpi[j])
+                    new_rank_a[name[j]] += 0.5 + 0.5 * (wpi[j] - wpi[i])
+
+                    rev_rank = 1. / (rank[name[i]] + rank[name[j]])
+                    new_rank_b[name[i]] += rev_rank
+                    new_rank_b[name[j]] += rev_rank
+
+        rank = {i: new_rank_a[i] / new_rank_b[i] for i in players}
+
+        # normalize the results
+        rev_ave_rank = len(rank) / sum(rank[i] for i in players)
+        rank = {i: rev_ave_rank * rank[i] for i in players}
+
+    # sort the results
+    return sorted(rank.items(), key=lambda x: x[1], reverse=True)
 
 
 for game in data:
     wpi(game)
+    print game['wpi']
+print bt(data)
