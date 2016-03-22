@@ -677,7 +677,7 @@ def wpi(game):
     weight = [1.] * len(mpi)
     rev_max_x = 1. / (len(mpi) - 1)
 
-    for iteration in range(10):
+    for iteration in range(20):
         # calculate averages
         sum_x = 0.
         sum_y = 0.
@@ -727,12 +727,14 @@ def bt(data):
             wpi = game['wpi']
             for i in range(len(wpi)):
                 for j in range(len(wpi)):
-                    new_rank_a[name[i]] += 0.5 + 0.5 * (wpi[i] - wpi[j])
-                    new_rank_a[name[j]] += 0.5 + 0.5 * (wpi[j] - wpi[i])
+                    if i != j:
+                        wpi_diff = 0.5 * (wpi[i] - wpi[j])
+                        new_rank_a[name[i]] += 0.5 + wpi_diff
+                        new_rank_a[name[j]] += 0.5 - wpi_diff
 
-                    rev_rank = 1. / (rank[name[i]] + rank[name[j]])
-                    new_rank_b[name[i]] += rev_rank
-                    new_rank_b[name[j]] += rev_rank
+                        rev_rank = 1. / (rank[name[i]] + rank[name[j]])
+                        new_rank_b[name[i]] += rev_rank
+                        new_rank_b[name[j]] += rev_rank
 
         rank = {i: new_rank_a[i] / new_rank_b[i] for i in players}
 
