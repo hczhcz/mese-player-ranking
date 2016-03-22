@@ -226,11 +226,11 @@ data = [{
     'mpi': [347, 301, 263, 346, 292, 206, 303, 315],
 }, {
     'time': '2012.12.10 21:45:23',
-    'name': ['TIGER', 'LUOLUO', 'KOBE', 'LAOLIU', 'ZHC', 'DAXIONG', 'OOXXINC', 'LIULIU'],
+    'name': ['TIGER', 'LUOLUO', 'KOBE', 'LAOLIU', 'ZHC', 'DAXIONG', 'OOXXINC', 'XIAO6'],
     'mpi': [463, 469, 427, 463, 340, 520, 489, 498],
 }, {
     'time': '2012.12.10 21:45:37',
-    'name': ['PAUL', 'HIGH', 'LIU', 'TIGER', 'OOXXINC', 'FY', 'FLY', 'LJY'],
+    'name': ['PAUL', 'HIGH', 'XIAO6', 'TIGER', 'OOXXINC', 'FY', 'FLY', 'LJY'],
     'mpi': [414, 317, 377, 549, 395, 337, 455, 282],
 }, {
     'time': '2012.12.10 21:45:58',
@@ -298,7 +298,7 @@ data = [{
     'mpi': [533, 523, 469, 464, 523, 500, 508, 382],
 }, {
     'time': '2012.12.10 21:59:00',
-    'name': ['IVYSUI', 'SOLEIL', 'EXIBAR', 'ICYXIAO', 'DZMM', 'YY', 'ARA', 'AIR'],
+    'name': ['IVYSUI', 'SOLEILL', 'EXIBAR', 'ICYXIAO', 'DZMM', 'YY', 'ARA', 'AIR'],
     'mpi': [378, 270, 337, 339, 435, 365, 397, 417],
 }, {
     'time': '2012.12.10 21:59:24',
@@ -402,27 +402,27 @@ data = [{
     'mpi': [243, 293, 249, 288, 170, 271, 135, 302],
 }, {
     'time': '2013.1.27 21:44:49',
-    'name': ['CAT', 'INSPRATI', 'LILI', 'MATTINC', 'OOXXINC', 'OWO', 'RABBIT', 'WXY'],
+    'name': ['CAT', 'INSPRATI', 'LILI', 'MATT', 'OOXXINC', 'OWO', 'RABBIT', 'WXY'],
     'mpi': [163, 142, 211, 161, 208, 193, 191, 183],
 }, {
     'time': '2013.1.31 22:25:37',
-    'name': ['KIRITO', 'MATTINC', 'LILI', 'FTD', 'ASH', 'INSPRATI', 'OOXXINC', 'OWO'],
+    'name': ['KIRITO', 'MATT', 'LILI', 'FTD', 'ASH', 'INSPRATI', 'OOXXINC', 'OWO'],
     'mpi': [245, 239, 345, 272, 281, 179, 244, 231],
 }, {
     'time': '2013.2.2 19:10:50',
-    'name': ['MATTINC', 'XWJ', 'KIRITO', 'TC', 'FLY', 'INDPTATI', 'MYSLY', 'FTD'],
+    'name': ['MATT', 'XWJ', 'KIRITO', 'TC', 'FLY', 'INSPRATI', 'MYSLY', 'FTD'],
     'mpi': [94, 80, 210, 130, 282, 114, -62, 122],
 }, {
     'time': '2013.2.2 19:58:20',
-    'name': ['OOXXINC', 'KIRITO', 'LILI', 'INSPRATI', 'EMINENCE', 'TIGER', 'MYSLY', 'MATTINC'],
+    'name': ['OOXXINC', 'KIRITO', 'LILI', 'INSPRATI', 'EMINENCE', 'TIGER', 'MYSLY', 'MATT'],
     'mpi': [497, 489, 427, 311, 411, 409, 346, 318],
 }, {
     'time': '2013.2.3 17:21:02',
-    'name': ['L', 'LILI', 'MATTINC', 'FTD', 'XAS', 'FLY', 'MYSLY', 'OOXXINC'],
+    'name': ['L', 'LILI', 'MATT', 'FTD', 'XAS', 'FLY', 'MYSLY', 'OOXXINC'],
     'mpi': [315, 225, 148, 183, 271, 101, 172, 265],
 }, {
     'time': '2013.2.3 18:19:21',
-    'name': ['EMINENCE', 'MATTINC', 'MYSLY', 'FLY', 'LILI', 'WXY', 'WWW', 'OOXXINC'],
+    'name': ['EMINENCE', 'MATT', 'MYSLY', 'FLY', 'LILI', 'WXY', 'WWW', 'OOXXINC'],
     'mpi': [269, 273, 246, 260, 257, 287, 251, 376],
 }, {
     'time': '2013.2.3 20:29:20',
@@ -430,7 +430,7 @@ data = [{
     'mpi': [155, 138, 131, 214, 228, 263, 111, 107],
 }, {
     'time': '2013.2.3 22:10:26',
-    'name': ['INSPRATI', 'MATTINC', 'UNRULY', 'SOMNUSM', '5238', 'MOMO', 'TIGER', 'KIRITO'],
+    'name': ['INSPRATI', 'MATT', 'UNRULY', 'SOMNUSM', '5238', 'MOMO', 'TIGER', 'KIRITO'],
     'mpi': [225, 172, 197, 318, 188, 128, 180, 262],
 }, {
     'time': '2013.2.4 20:05:55',
@@ -438,15 +438,15 @@ data = [{
     'mpi': [370, 267, 317, 263, 265, 241, 291, 198],
 }, {
     'time': '2013.2.4 20:06:13',
-    'name': ['CADAE', 'FTD', 'FTD2009', 'INSPRATI', 'KIRITO', 'LILI', 'MATTINC', 'QQQ'],
+    'name': ['CADAE', 'FTD', 'FTD', 'INSPRATI', 'KIRITO', 'LILI', 'MATT', 'QQQ'],
     'mpi': [93, 242, 277, 183, 352, 381, 233, 158],
 }, {
     'time': '2013.2.4 21:12:58',
-    'name': ['MATTINC', 'INSPRATI', 'WESIQ', 'MEREDITH', 'CUPPY', 'TSJ', 'WH', 'KIRITO'],
+    'name': ['MATT', 'INSPRATI', 'WESIQ', 'MEREDITH', 'CUPPY', 'TSJ', 'WH', 'KIRITO'],
     'mpi': [187, 174, 373, 248, 226, 181, 88, 308],
 }, {
     'time': '2013.2.5 20:29:54',
-    'name': ['GODLIKE', 'FTD', 'LILI', 'TIGER', 'WYC', 'MATTINC', 'BHY', 'OOXXINC'],
+    'name': ['GODLIKE', 'FTD', 'LILI', 'TIGER', 'WYC', 'MATT', 'BHY', 'OOXXINC'],
     'mpi': [341, 295, 185, 317, 142, 216, 256, 291],
 }, {
     'time': '2013.2.5 23:25:09',
@@ -462,31 +462,31 @@ data = [{
     'mpi': [432, 392, 263, 268, 382, 251, 399, 333],
 }, {
     'time': '2013.2.8 16:52:42',
-    'name': ['CANDY', 'INSPRATI', 'FTD', 'CUPPY', 'WYC', 'MATTINC', 'GODLIKE', 'CNMD'],
+    'name': ['CANDY', 'INSPRATI', 'FTD', 'CUPPY', 'WYC', 'MATT', 'GODLIKE', 'CNMD'],
     'mpi': [175, 227, 380, 301, 165, 326, 373, 307],
 }, {
     'time': '2013.2.8 16:53:02',
-    'name': ['INSPRATI', 'GODIKE', 'KIRITO', 'MARS', 'TSJ', 'FLY'],
+    'name': ['INSPRATI', 'GODLIKE', 'KIRITO', 'MARS', 'TSJ', 'FLY'],
     'mpi': [312, 375, 364, 413, 313, 393],
 }, {
     'time': '2013.2.8 16:53:19',
-    'name': ['INSPRATI', 'UNRULY', 'MATTINC', 'KIRITO', 'GODLIKE', '8', 'EXIBAR', 'FTD'],
+    'name': ['INSPRATI', 'UNRULY', 'MATT', 'KIRITO', 'GODLIKE', '8', 'EXIBAR', 'FTD'],
     'mpi': [217, 102, 142, 405, 379, 377, 96, 94],
 }, {
     'time': '2013.2.8 16:53:42',
-    'name': ['CNMD', 'AVALON', 'MATTINC', 'HEHE', 'KIRITO', 'CANDY', 'WYC', 'CUPPY'],
+    'name': ['CNMD', 'AVALON', 'MATT', 'HEHE', 'KIRITO', 'CANDY', 'WYC', 'CUPPY'],
     'mpi': [406, 437, 514, 201, 538, 433, 248, 470],
 }, {
     'time': '2013.2.8 16:53:55',
-    'name': ['MATTINC', 'KIRITO', 'GODLIKE', 'MAH', 'FTD', 'CUPPY', 'ADAI', 'CAICAIWO'],
+    'name': ['MATT', 'KIRITO', 'GODLIKE', 'MAH', 'FTD', 'CUPPY', 'ADAI', 'CAICAIWO'],
     'mpi': [257, 280, 386, 354, 304, 337, 152, 335],
 }, {
     'time': '2013.2.8 16:54:06',
-    'name': ['00', 'EMINENCE', 'GODLIKE', 'FLY', 'SWEET', 'MATTINC', 'KIRITO', 'WYC'],
+    'name': ['00', 'EMINENCE', 'GODLIKE', 'FLY', 'SWEET', 'MATT', 'KIRITO', 'WYC'],
     'mpi': [383, 407, 416, 432, 376, 425, 420, 223],
 }, {
     'time': '2013.2.8 16:54:16',
-    'name': ['MATTINC', 'WYC', 'GODLIKE', 'FLY', 'CUPPY', 'KIRITO', 'CANDY', 'FTD'],
+    'name': ['MATT', 'WYC', 'GODLIKE', 'FLY', 'CUPPY', 'KIRITO', 'CANDY', 'FTD'],
     'mpi': [434, 280, 564, 419, 479, 510, 487, 478],
 }, {
     'time': '2013.2.8 17:03:54',
@@ -498,7 +498,7 @@ data = [{
     'mpi': [314, 298, 343, 312, 295, 317, 306, 304],
 }, {
     'time': '2013.2.8 21:25:08',
-    'name': ['GODLIKE', 'KIRITO', 'MATTINC', 'LILI', 'CUPPY', 'INSPRATI', 'THEEND', 'FTD'],
+    'name': ['GODLIKE', 'KIRITO', 'MATT', 'LILI', 'CUPPY', 'INSPRATI', 'THEEND', 'FTD'],
     'mpi': [97, 86, 33, 325, 83, 291, -61, 119],
 }, {
     'time': '2013.2.9 18:16:25',
@@ -506,7 +506,7 @@ data = [{
     'mpi': [286, 168, 320, 152, 266, 308, 233, 282],
 }, {
     'time': '2013.2.9 22:55:54',
-    'name': ['KIRITO', 'SWEET', 'MATTINC', 'INSPRATI', 'OSO', 'MARS', 'GODLIKE', 'SPARK'],
+    'name': ['KIRITO', 'SWEET', 'MATT', 'INSPRATI', 'OSO', 'MARS', 'GODLIKE', 'SPARK'],
     'mpi': [67, 110, 192, 57, 12, 44, 214, 84],
 }, {
     'time': '2013.2.10 0:28:08',
@@ -522,7 +522,7 @@ data = [{
     'mpi': [370, 317, 231, 303, 336, 276],
 }, {
     'time': '2013.2.12 20:02:23',
-    'name': ['D', 'GODLIKE', 'MATTINC', 'INSPRATI', 'SPARK', 'FTD', 'KIRITO'],
+    'name': ['D', 'GODLIKE', 'MATT', 'INSPRATI', 'SPARK', 'FTD', 'KIRITO'],
     'mpi': [11, 282, 125, -2, 67, 23, -3],
 }, {
     'time': '2013.2.12 20:02:39',
@@ -530,7 +530,7 @@ data = [{
     'mpi': [321, 273, 217, 453, 450, 515, 431, 385],
 }, {
     'time': '2013.2.12 21:37:39',
-    'name': ['TIGER', 'GODLIKE', 'MATTINC', 'FLY', 'INSPRATI', 'KIRITO', 'WYC', 'OOXXINC'],
+    'name': ['TIGER', 'GODLIKE', 'MATT', 'FLY', 'INSPRATI', 'KIRITO', 'WYC', 'OOXXINC'],
     'mpi': [199, 329, 330, 316, 162, 195, 216, 213],
 }, {
     'time': '2013.2.13 19:59:11',
@@ -538,7 +538,7 @@ data = [{
     'mpi': [207, 304, 300, 338, 314, 276, 230, 311],
 }, {
     'time': '2013.2.13 21:22:47',
-    'name': ['MATTINC', 'KIRITO', 'INSPRATI', 'WYC', 'CSXY', 'IVY', 'LILI', 'AYA'],
+    'name': ['MATT', 'KIRITO', 'INSPRATI', 'WYC', 'CSXY', 'IVYSUI', 'LILI', 'AYA'],
     'mpi': [214, 304, 221, 241, 200, 291, 465, 233],
 }, {
     'time': '2013.2.14 20:01:17',
@@ -558,15 +558,15 @@ data = [{
     'mpi': [309, 359, 317, 337, 305, 306, 306, 306],
 }, {
     'time': '2013.2.20 20:31:30',
-    'name': ['SPARK', 'GODLIKE', 'MATT', 'R', 'FTD', 'FTDCOMP', 'INSPRATI', 'KIRITO'],
+    'name': ['SPARK', 'GODLIKE', 'MATT', 'R', 'FTD', 'FTD', 'INSPRATI', 'KIRITO'],
     'mpi': [125, 212, 191, 204, 46, 66, 49, 119],
 }, {
     'time': '2013.2.20 20:36:27',
-    'name': ['1', 'WH', 'WYC', 'JIONG', 'MATTINC', 'GODLIKE', 'KIRITO', 'FTDCOMP'],
+    'name': ['1', 'WH', 'WYC', 'JIONG', 'MATT', 'GODLIKE', 'KIRITO', 'FTD'],
     'mpi': [207, 252, 7, 216, 311, 328, 204, 275],
 }, {
     'time': '2013.2.20 20:37:00',
-    'name': ['KIRITO', 'FTD', 'FTDCOMP', 'GODLIKE', 'MATTINC', 'WOLEGEQU', 'WH', 'SPARK'],
+    'name': ['KIRITO', 'FTD', 'FTD', 'GODLIKE', 'MATT', 'WOLEGEQU', 'WH', 'SPARK'],
     'mpi': [272, 344, 255, 353, 298, 280, 268, 271],
 }, {
     'time': '2013.2.25 18:19:53',
@@ -594,11 +594,11 @@ data = [{
     'mpi': [261, 282, 286, 299, 225, 339, 198, 182],
 }, {
     'time': '2013.5.5 21:10:56',
-    'name': ['OOXXINC', 'MATT', 'GODLIKE', 'I8', 'LILI', 'INAPRATI'],
+    'name': ['OOXXINC', 'MATT', 'GODLIKE', 'I8', 'LILI', 'INSPRATI'],
     'mpi': [436, 512, 463, 434, 382, 88],
 }, {
     'time': '2013.5.5 21:11:40',
-    'name': ['INSPRATI', 'I8', '1', 'OOXXINC', 'ANGLINA', 'GODLIKE'],
+    'name': ['INSPRATI', 'I8', '1', 'OOXXINC', 'ANGELINA', 'GODLIKE'],
     'mpi': [219, 382, 407, 394, 248, 390],
 }, {
     'time': '2013.5.5 21:12:30',
@@ -634,7 +634,7 @@ data = [{
     'mpi': [315, 234, 155, 266, 275, 291, 328, 287],
 }, {
     'time': '2013.5.5 21:17:07',
-    'name': ['GODLIKE', 'XIREN', 'INSPRATI', 'KIRITO', 'MATT', 'WH', 'FTD', 'FTDCOMP'],
+    'name': ['GODLIKE', 'XIREN', 'INSPRATI', 'KIRITO', 'MATT', 'WH', 'FTD', 'FTD'],
     'mpi': [330, 134, 316, 156, 357, 167, 234, 178],
 }, {
     'time': '2013.5.5 21:17:22',
@@ -658,7 +658,7 @@ data = [{
     'mpi': [306, 346, 403, 239, 317, 136, 210, 393],
 }, {
     'time': '2013.5.5 21:19:56',
-    'name': ['UNRULY', 'INSPRATI', 'LILI', 'ITSF8', 'GODLIKE', 'VERDUROU', 'MATT', 'FTDCOMP'],
+    'name': ['UNRULY', 'INSPRATI', 'LILI', 'ITSF8', 'GODLIKE', 'VERDUROU', 'MATT', 'FTD'],
     'mpi': [238, 310, 407, 370, 407, 113, 458, 337],
 }, {
     'time': '2013.6.28 21:06:14',
