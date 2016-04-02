@@ -707,6 +707,31 @@ def wpi(game):
     game['wpi'] = [k * i + b for i in game['mpi']]
 
 
+# calculate average indexes
+def ave_wpi(data, init_lost=2.):
+    players = set()
+    for game in data:
+        players |= set(game['name'])
+
+    # calculate sums and counts
+    sums = {i: 0. for i in players}
+    counts = {i: 7. * init_lost for i in players}
+
+    # load data from games
+    for game in data:
+        name = game['name']
+        wpi = game['wpi']
+        for i in range(len(wpi)):
+            sums[name[i]] += (len(wpi) - 1) * wpi[i]
+            counts[name[i]] += len(wpi) - 1
+
+    # generate the results
+    rank = {i: sums[i] / counts[i] for i in players}
+
+    # sort the results
+    return sorted(rank.items(), key=lambda x: x[1], reverse=True)
+
+
 # generate Bradley-Terry Model ranks
 def bt(data, init_lost=2., rank_diff=0.5):
     players = set()
@@ -755,4 +780,6 @@ def bt(data, init_lost=2., rank_diff=0.5):
 for game in data:
     wpi(game)
     # print game['wpi']
+print ave_wpi(data)
+print
 print bt(data)
