@@ -708,7 +708,7 @@ def wpi(game):
 
 
 # generate Bradley-Terry Model ranks
-def bt(data):
+def bt(data, init_lost=2., rank_diff=0.5):
     players = set()
     for game in data:
         players |= set(game['name'])
@@ -719,7 +719,8 @@ def bt(data):
         # new_rank_a = {i: 0. for i in players}
         # new_rank_b = {i: 0. for i in players}
         new_rank_a = {i: 0. for i in players}
-        new_rank_b = {i: 7. / (1. + rank[i]) for i in players}  # assume one lost 8p game
+        # assume lost $(init_lost) 8p games
+        new_rank_b = {i: 7. * init_lost / (1. + rank[i]) for i in players}
 
         # load data from games
         for game in data:
@@ -728,7 +729,12 @@ def bt(data):
             for i in range(len(wpi)):
                 for j in range(len(wpi)):
                     if i != j:
-                        wpi_diff = 0.5 * (wpi[i] - wpi[j])
+                        wpi_diff = 0.5 * (1. - rank_diff) * (wpi[i] - wpi[j])
+                        if wpi[i] > wpi[j]:
+                            wpi_diff += 0.5 * rank_diff
+                        else:
+                            wpi_diff -= 0.5 * rank_diff
+
                         new_rank_a[name[i]] += 0.5 + wpi_diff
                         new_rank_a[name[j]] += 0.5 - wpi_diff
 
@@ -748,5 +754,5 @@ def bt(data):
 
 for game in data:
     wpi(game)
-    print game['wpi']
+    # print game['wpi']
 print bt(data)
